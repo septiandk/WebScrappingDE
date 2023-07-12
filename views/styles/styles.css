@@ -1,0 +1,22 @@
+body {
+    padding-top: 60px;
+  }
+  
+  .card-header {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
