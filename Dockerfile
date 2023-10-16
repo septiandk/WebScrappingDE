@@ -15,7 +15,7 @@ RUN npm install elastic-apm-node --save
 COPY . .
 
 # Expose the port your Express app is listening on (default is 3000)
-EXPOSE 80
+EXPOSE 8080
 
 # Define the command to start your Node.js application
 CMD ["node", "index.js"]
