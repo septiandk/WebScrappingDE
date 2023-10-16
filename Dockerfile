@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 80
 
 # Define the command to start your Node.js application
-CMD ["sh", "-c", "systemctl start nginx","node", "index.js"]
+CMD ["node", "index.js"]
