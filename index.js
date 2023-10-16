@@ -2,7 +2,7 @@
 var apm = require('elastic-apm-node').start({
   serviceName: 'my-service-name',
   secretToken: '',
-  serverUrl: 'http://localhost:8200',
+  serverUrl: 'http://172.20.66.51:8200',
   environment: 'my-environment'
 })
 
