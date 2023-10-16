@@ -1,8 +1,8 @@
-import { init as initApm } from '@elastic/apm-rum'
-var apm = initApm({
+// Add this to the very top of the first file loaded in your app
+var apm = require('elastic-apm-node').start({
   serviceName: 'my-service-name',
-  serverUrl: 'https://elastic.psngroup.cloud:8200',
-  serviceVersion: '',
+  secretToken: '',
+  serverUrl: 'http://localhost:8200',
   environment: 'my-environment'
 })
 

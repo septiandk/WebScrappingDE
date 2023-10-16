@@ -9,7 +9,7 @@ COPY package*.json ./
 RUN npm install 
 
 # Install apm
-RUN npm install @elastic/apm-rum --save
+npm install elastic-apm-node --save
 
 # Copy the rest of the application code to the container
 COPY . .
