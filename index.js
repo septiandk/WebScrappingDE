@@ -1,10 +1,10 @@
 // Add this to the very top of the first file loaded in your app
-var apm = require('elastic-apm-node').start({
-  serviceName: 'my-service-name',
-  secretToken: '',
-  serverUrl: 'http://172.20.66.51:8200',
-  environment: 'my-environment'
-})
+// var apm = require('elastic-apm-node').start({
+//   serviceName: 'my-service-name',
+//   secretToken: '',
+//   serverUrl: 'http://172.20.66.51:8200',
+//   environment: 'my-environment'
+// })
 
 const express = require('express');
 const app = express();
